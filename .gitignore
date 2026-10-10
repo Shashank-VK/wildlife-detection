@@ -1,0 +1,32 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest / Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ultralytics & Model artifacts
+*.pt
+*.onnx
+runs/
+.config/
+
+# Output artifacts
+*.csv
+output/
+tmp/
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
